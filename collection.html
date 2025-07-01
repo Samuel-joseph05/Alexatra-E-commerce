@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>Alexatra</h1>
+      <div class="navbar-links">
+        <p class="navbar-links"><a href="index.html">Home</a></p>
+        <p class="navbar-links"><a href="collection.html">Collection</a></p>
+        <p class="navbar-links"><a href="contact.html">Contacts Us</a></p>
+      </div>
+      <div class="navbar-menu-toggle" onclick="shownavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!--side Navbar-->
+    <div class="side-navbar">
+      <p style="text-align: right" class="SNav" onclick="closenavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+      <div class="side-navbar-link">
+        <p class="side-navbar-links"><a href="index.html">Home</a></p>
+        <p class="side-navbar-links">
+          <a href="collection.html">Collection</a>
+        </p>
+        <p class="side-navbar-links"><a href="contact.html">Contacts Us</a></p>
+      </div>
+    </div>
+    <!--product-->
+    <div class="product-section">
+      <form class="product-search">
+        <input type="text" id="search" placeholder="Search" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+      <div class="products" id="products">
+        <div class="products-box">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod/images/sydney-sweeney-chocolate-brown-leather-outfit-2-65ddbcfe40407.jpg?resize=980:*"
+            width="200"
+            height="300"
+          />
+          <p>chocolate brown leather</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://imgix.bustle.com/uploads/getty/2025/6/10/01191a1e/london-england-june-10.jpg?w=414&h=597&fit=crop&crop=focalpoint&dpr=2&fp-x=0.4634&fp-y=0.1592"
+            width="200"
+            height="300"
+          />
+          <p>Light blue dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM1os306OIh3mLK5Ct19-eN4-n-k30zeXE6A&s"
+            width="200"
+            height="300"
+          />
+          <p>yellow dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://pbs.twimg.com/media/GA8svY6WEAAfXKU.jpg:large"
+            width="200"
+            height="300"
+          />
+          <p>Purple dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://www.masala.com/cloud/2025/06/05/sydney-sweeney-echo-valley-premiere-in-new-york-city-june-6-v0-42ce05ad105f1-scaled.jpg"
+            width="200"
+            height="300"
+          />
+          <p>Red dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://media.glamour.com/photos/64ac4d4a0c9cae60a865de79/master/w_2560%2Cc_limit/1514794351"
+            width="200"
+            height="300"
+          />
+          <p>black dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1667851878.jpg?resize=980:* "
+            width="200"
+            height="300"
+          />
+          <p>pink dress</p>
+        </div>
+        <div class="products-box">
+          <img
+            src="https://www.usmagazine.com/wp-content/uploads/2025/04/Sydney-Sweeney-Bio.jpg?w=800&h=1421&crop=1&quality=40&strip=all"
+            width="200"
+            height="300"
+          />
+          <p>White dress</p>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-1">
+          <h2 class="heading-text">Alexatra</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            nobis accusa
+          </p>
+          <div class="icon-container">
+            <i class="fa-brands fa-instagram" style="color: #ffff"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffff"></i>
+            <i class="fa-brands fa-facebook" style="color: #ffff"></i>
+          </div>
+        </div>
+      </div>
+      <p>@2025</p>
+    </div>
+  </body>
+  <script src="collection.js"></script>
+</html>
