@@ -35,7 +35,7 @@ To view the website locally:
    cd alexatra
 Open index.html in your browser.
 
-###🔧 Technologies Used
+🔧 Technologies Used
 HTML5
 
 CSS3
